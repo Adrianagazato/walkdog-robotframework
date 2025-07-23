@@ -1,0 +1,36 @@
+{"level":30,"time":"2025-07-11T19:27:21.110Z","pid":3180,"hostname":"DSPN020101040","msg":"Listening on 127.0.0.1:49471"}
+(node:3180) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+{"level":30,"time":"2025-07-11T19:27:21.932Z","pid":3180,"hostname":"DSPN020101040","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2025-07-11T19:27:23.774Z","pid":3180,"hostname":"DSPN020101040","msg":"Adding browser to stack: chromium, version: 138.0.7204.23"}
+{"level":30,"time":"2025-07-11T19:27:23.775Z","pid":3180,"hostname":"DSPN020101040","msg":"End of node method newBrowser"}
+{"level":30,"time":"2025-07-11T19:27:23.775Z","pid":3180,"hostname":"DSPN020101040","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2025-07-11T19:27:23.796Z","pid":3180,"hostname":"DSPN020101040","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-07-11T19:27:23.797Z","pid":3180,"hostname":"DSPN020101040","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-07-11T19:27:23.820Z","pid":3180,"hostname":"DSPN020101040","msg":"Changed active context"}
+{"level":30,"time":"2025-07-11T19:27:24.928Z","pid":3180,"hostname":"DSPN020101040","msg":"Video path: undefined"}
+{"level":30,"time":"2025-07-11T19:27:24.929Z","pid":3180,"hostname":"DSPN020101040","msg":"Changed active page"}
+{"level":30,"time":"2025-07-11T19:27:25.631Z","pid":3180,"hostname":"DSPN020101040","msg":"End of node method newPage"}
+{"level":30,"time":"2025-07-11T19:27:25.640Z","pid":3180,"hostname":"DSPN020101040","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-07-11T19:27:25.641Z","pid":3180,"hostname":"DSPN020101040","msg":"Strict mode is enabled, find Locator with form h1 in page."}
+{"level":30,"time":"2025-07-11T19:28:48.677Z","pid":3180,"hostname":"DSPN020101040","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-07-11T19:28:48.678Z","pid":3180,"hostname":"DSPN020101040","msg":"Strict mode is enabled, find Locator with form h1 in page."}
+{"level":30,"time":"2025-07-11T19:51:31.653Z","pid":3180,"hostname":"DSPN020101040","msg":"Removed page=587fc2f0-8243-4d22-984a-4fa14adcc9c7 from context=a4b59cf0-a045-4ffe-98d0-e34ab448b5ea page stack"}
+{"level":30,"time":"2025-07-11T19:51:31.655Z","pid":3180,"hostname":"DSPN020101040","msg":"Error of node method  waitForElementState"}
+================= Original suppressed error =================
+locator.waitFor: Target page, context or browser has been closed
+Call log:
+[2m  - waiting for locator('form h1') to be visible[22m
+
+    at waitForElementState (C:\Python312\Lib\site-packages\Browser\wrapper\index.js:11283:19)
+    at async PlaywrightServer.waitForElementsState (C:\Python312\Lib\site-packages\Browser\wrapper\index.js:13135:28)
+=============================================================
+================= Original suppressed error =================
+locator.waitFor: Target page, context or browser has been closed
+Call log:
+[2m  - waiting for locator('form h1') to be visible[22m
+
+    at waitForElementState (C:\Python312\Lib\site-packages\Browser\wrapper\index.js:11283:19)
+    at async PlaywrightServer.waitForElementsState (C:\Python312\Lib\site-packages\Browser\wrapper\index.js:13135:28)
+=============================================================
+{"level":30,"time":"2025-07-11T19:51:31.657Z","pid":3180,"hostname":"DSPN020101040","msg":"Error of node method  waitForElementState"}
